@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class RingsAndRods {
+public class Solution {
 
     public int countPoints(String rings) {
 

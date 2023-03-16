@@ -2,7 +2,7 @@ package LeetCode.Algorithms.Medium.Integer_to_Roman;
 
 import java.util.Arrays;
 
-public class IntegerToRoman {
+public class Solution {
 
     StringBuilder romanString = new StringBuilder("");
 

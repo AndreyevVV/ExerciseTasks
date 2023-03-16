@@ -2,7 +2,7 @@ package LeetCode.Algorithms.Medium.Recover_Binary_Search_Tree;
 
 import java.util.Stack;
 
-class RecoverBinarySearchTree {
+class Solution {
     TreeNode prev;
     TreeNode first;
     TreeNode second;
