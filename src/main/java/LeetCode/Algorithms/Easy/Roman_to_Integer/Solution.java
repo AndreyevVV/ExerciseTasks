@@ -1,14 +1,31 @@
 package LeetCode.Algorithms.Easy.Roman_to_Integer;
 
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class Solution {
 
+    static Map<String, Integer> romanMap = new LinkedHashMap<>() {{
+        put("M", 1000); put("CM", 900); put("D", 500); put("CD", 400); put("C", 100);
+        put("XC", 90); put("L", 50); put("XL", 40); put("X", 10);
+        put("IX", 9); put("V", 5); put("IV", 4); put("I", 1);
+    }};
+
     public int romanToInt(String s) {
+        if (s.length() == 0) {
+            return 0;
+        }
+
+        return romanMap.entrySet().stream()
+                .filter(d -> s.startsWith(d.getKey()))
+                .map(d -> d.getValue() + romanToInt(s.substring(d.getKey().length())))
+                .findFirst()
+                .orElse(0);
+    }
+
+    public int romanToIntWithRegex(String s) {
 
         String regex = Arrays.stream(Roman.values())
                 .sorted(Comparator.comparingInt(r -> -r.name().length()))
