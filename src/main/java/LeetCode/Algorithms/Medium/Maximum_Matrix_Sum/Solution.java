@@ -2,10 +2,6 @@ package LeetCode.Algorithms.Medium.Maximum_Matrix_Sum;
 
 public class Solution {
 
-    public static void main(String[] args) {
-        System.out.println(new Solution().maxMatrixSum(new int[][]{{1,-1},{-1,1}}));
-    }
-
     public long maxMatrixSum(int[][] matrix) {
 
         int n = matrix.length;
