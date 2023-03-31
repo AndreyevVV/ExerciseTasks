@@ -1,7 +1,7 @@
 package LeetCode.LeetCode_75_Level_1.Day_2_String.Easy.Isomorphic_Strings;
 
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Solution {
     public boolean isIsomorphic(String s, String t) {
