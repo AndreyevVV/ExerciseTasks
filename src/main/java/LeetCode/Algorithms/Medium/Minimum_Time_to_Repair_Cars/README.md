@@ -2,7 +2,7 @@
 created: 2023-03-27T20:07:59 (UTC +02:00)
 source: https://leetcode.com/problems/minimum-time-to-repair-cars/
 ---
-You are given an integer array `ranks` representing the **ranks** of some mechanics. ranks<sub>i</sub> is the rank of the i<sup>th</sup> mechanic. A mechanic with a rank `r` can repair n cars in r * n <sup>2</sup> minutes.
+You are given an integer array `ranks` representing the **ranks** of some mechanics. ranks<sub>i</sub> is the rank of the i^th mechanic. A mechanic with a rank `r` can repair n cars in r * n <sup>2</sup> minutes.
 
 You are also given an integer `cars` representing the total number of cars waiting in the garage to be repaired.
 
@@ -39,6 +39,6 @@ It can be proved that the cars cannot be repaired in less than 16 minutes.
 
 **Constraints:**
 
--   `1 <= ranks.length <= 10<sup>5</sup>`
+-   `1 <= ranks.length <= 10^5`
 -   `1 <= ranks[i] <= 100`
--   `1 <= cars <= 10<sup>6</sup>`
+-   `1 <= cars <= 10^6`

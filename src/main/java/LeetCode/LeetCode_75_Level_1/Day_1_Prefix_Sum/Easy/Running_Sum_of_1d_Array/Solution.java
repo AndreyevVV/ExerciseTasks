@@ -1,8 +1,6 @@
 package LeetCode.LeetCode_75_Level_1.Day_1_Prefix_Sum.Easy.Running_Sum_of_1d_Array;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Solution {
 

@@ -14,7 +14,7 @@ Return _the generated matrix_.
 
 **Example 1:**
 
-![](https://assets.leetcode.com/uploads/2022/06/21/ex1.png)
+![img.png](img.png)
 
 ```
 Input: grid = [[9,9,8,1],[5,6,2,6],[8,2,6,4],[6,2,2,2]]
@@ -25,7 +25,7 @@ Notice that each value in the generated matrix corresponds to the largest value 
 
 **Example 2:**
 
-![](https://assets.leetcode.com/uploads/2022/07/02/ex2new2.png)
+![img_1.png](img_1.png)
 
 ```
 Input: grid = [[1,1,1,1,1],[1,1,1,1,1],[1,1,2,1,1],[1,1,1,1,1],[1,1,1,1,1]]

@@ -32,6 +32,6 @@ Output: 1
 
 **Constraints:**
 
--   `1 <= nums.length <= 3 * 10<sup>4</sup>`
--   `-3 * 10<sup>4</sup> <= nums[i] <= 3 * 10<sup>4</sup>`
+-   `1 <= nums.length <= 3 * 10^4`
+-   `-3 * 10^4 <= nums[i] <= 3 * 10^4`
 -   Each element in the array appears twice except for one element which appears only once.

@@ -1,7 +1,5 @@
 package LeetCode.LeetCode_75_Level_1.Day_3_Linked_List.Easy.Merge_Two_Sorted_Lists;
 
-import java.util.List;
-
 public class Solution {
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
