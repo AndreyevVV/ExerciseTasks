@@ -1,9 +1,6 @@
 package LeetCode.LeetCode_75_Level_1.Day_7_Binary_Search.Easy.Binary_Search;
 
 public class Solution {
-    public static void main(String[] args) {
-        System.out.println(new Solution().search(new int[] {5}, 5));
-    }
 
     public int search(int[] nums, int target) {
 
