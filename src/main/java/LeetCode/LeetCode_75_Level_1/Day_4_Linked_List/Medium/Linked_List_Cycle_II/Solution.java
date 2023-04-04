@@ -17,9 +17,6 @@ public class Solution {
                 while (head != rabbit) {
                     rabbit = rabbit.next;
                     head = head.next;
-                    int valHead = rabbit.val;
-                    int valRabbit = head.val;
-                    int temp = 0;
                 }
                 return head;
             }
