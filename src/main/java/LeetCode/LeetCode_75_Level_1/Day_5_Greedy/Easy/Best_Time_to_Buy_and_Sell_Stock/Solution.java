@@ -1,7 +1,5 @@
 package LeetCode.LeetCode_75_Level_1.Day_5_Greedy.Easy.Best_Time_to_Buy_and_Sell_Stock;
 
-import java.util.Arrays;
-
 public class Solution {
 
     public int maxProfit(int[] prices) {

@@ -1,6 +1,5 @@
 package LeetCode.LeetCode_75_Level_1.Day_5_Greedy.Easy.Longest_Palindrome;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
