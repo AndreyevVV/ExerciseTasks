@@ -1,6 +1,6 @@
 package RandomTasks.Algorithms.Flood_Fill;
 
-public class                FloodMe implements FloodFill{
+public class FloodMe implements FloodFill{
 
     String image;
     int height;
