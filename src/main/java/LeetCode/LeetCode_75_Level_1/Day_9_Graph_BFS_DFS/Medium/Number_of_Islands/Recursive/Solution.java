@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_1.Day_9_Graph_BFS_DFS.Medium.Number_of_Islands;
+package LeetCode.LeetCode_75_Level_1.Day_9_Graph_BFS_DFS.Medium.Number_of_Islands.Recursive;
 
 public class Solution {
 
