@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_1.Day_10_Dynamic_Programming.Fibonacci_Number.Dynamic;
+package LeetCode.LeetCode_75_Level_1.Day_10_Dynamic_Programming.Easy.Fibonacci_Number.Dynamic;
 
 public class Solution {
 

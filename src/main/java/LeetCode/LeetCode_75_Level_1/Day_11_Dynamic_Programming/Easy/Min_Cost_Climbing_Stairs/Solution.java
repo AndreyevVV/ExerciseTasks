@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_1.Day_11_Dynamic_Programming.Min_Cost_Climbing_Stairs;
+package LeetCode.LeetCode_75_Level_1.Day_11_Dynamic_Programming.Easy.Min_Cost_Climbing_Stairs;
 
 public class Solution {
 

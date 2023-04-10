@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_1.Day_11_Dynamic_Programming.Unique_Paths;
+package LeetCode.LeetCode_75_Level_1.Day_11_Dynamic_Programming.Medium.Unique_Paths;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_1.Day_10_Dynamic_Programming.Climbing_Stairs.Recursion;
+package LeetCode.LeetCode_75_Level_1.Day_10_Dynamic_Programming.Easy.Climbing_Stairs.Recursion;
 
 public class Solution {
 
