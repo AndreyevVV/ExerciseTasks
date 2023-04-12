@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_1.Sliding_Window_Two_Pointer.Medium.Longest_Repeating_Character_Replacement;
+package LeetCode.LeetCode_75_Level_1.Day_12_Sliding_Window_Two_Pointer.Medium.Longest_Repeating_Character_Replacement;
 
 import java.util.HashMap;
 import java.util.Map;

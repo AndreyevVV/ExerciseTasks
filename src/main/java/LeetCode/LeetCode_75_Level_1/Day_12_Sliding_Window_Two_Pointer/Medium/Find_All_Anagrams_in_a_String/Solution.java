@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_1.Sliding_Window_Two_Pointer.Medium.Find_All_Anagrams_in_a_String;
+package LeetCode.LeetCode_75_Level_1.Day_12_Sliding_Window_Two_Pointer.Medium.Find_All_Anagrams_in_a_String;
 
 import java.util.ArrayList;
 import java.util.HashMap;
