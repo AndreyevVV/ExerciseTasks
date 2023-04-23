@@ -5,18 +5,18 @@ import static java.util.Arrays.sort;
 public class Solution {
     public static void main(String[] args) {
 
-        int[] nums = {...}; // Input array
-        int val = ...; // Value to remove
-        int[] expectedNums = {...}; // The expected answer with correct length.
-        // It is sorted with no values equaling val.
-
-        int k = new Solution().removeElement(nums, val); // Calls your implementation
-
-        assert k == expectedNums.length;
-        sort(nums, 0, k); // Sort the first k elements of nums
-        for (int i = 0; i < nums.length; i++) {
-            assert nums[i] == expectedNums[i];
-        }
+//        int[] nums = {...}; // Input array
+//        int val = ...; // Value to remove
+//        int[] expectedNums = {...}; // The expected answer with correct length.
+//        // It is sorted with no values equaling val.
+//
+//        int k = new Solution().removeElement(nums, val); // Calls your implementation
+//
+//        assert k == expectedNums.length;
+//        sort(nums, 0, k); // Sort the first k elements of nums
+//        for (int i = 0; i < nums.length; i++) {
+//            assert nums[i] == expectedNums[i];
+//        }
     }
 
     public int removeElement(int[] nums, int val) {
