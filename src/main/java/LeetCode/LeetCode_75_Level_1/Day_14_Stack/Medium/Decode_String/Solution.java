@@ -1,8 +1,9 @@
-package LeetCode.LeetCode_75_Level_1.Day_14_Stack.Medium;
+package LeetCode.LeetCode_75_Level_1.Day_14_Stack.Medium.Decode_String;
 
 import java.util.Stack;
 
 public class Solution {
+
     public String decodeString(String s) {
 
         Stack<Integer> repCounter = new Stack<>();
@@ -14,7 +15,7 @@ public class Solution {
         for (int i = 0; i < n; i++) {
 
             if (Character.isDigit(s.charAt(i))) {
-                counter = Integer.parseInt(s.substring(i, s.indexOf('[', i)));
+                counter = counter * 10 + s.charAt(i) - '0';;
             } else if (s.charAt(i) == '[') {
                 symbols.push(str);
 

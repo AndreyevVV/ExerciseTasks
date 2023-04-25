@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_1.Day_14_Stack.Easy;
+package LeetCode.LeetCode_75_Level_1.Day_14_Stack.Easy.Backspace_String_Compare;
 
 import java.util.Stack;
 

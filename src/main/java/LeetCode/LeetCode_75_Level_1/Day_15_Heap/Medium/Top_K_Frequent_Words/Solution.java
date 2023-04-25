@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_1.Day_15_Heap.Medium;
+package LeetCode.LeetCode_75_Level_1.Day_15_Heap.Medium.Top_K_Frequent_Words;
 
 import java.util.*;
 import java.util.function.Function;

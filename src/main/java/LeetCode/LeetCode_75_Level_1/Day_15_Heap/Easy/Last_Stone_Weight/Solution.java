@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_1.Day_15_Heap.Easy;
+package LeetCode.LeetCode_75_Level_1.Day_15_Heap.Easy.Last_Stone_Weight;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
