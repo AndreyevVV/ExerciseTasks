@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Solution {
-    public static void main(String[] args) {
-        System.out.println(new Solution().findDisappearedNumbers(new int[]{1, 1, 1}));
-    }
 
     public List<Integer> findDisappearedNumbers(int[] nums) {
         List<Integer> answer = new ArrayList<>();
