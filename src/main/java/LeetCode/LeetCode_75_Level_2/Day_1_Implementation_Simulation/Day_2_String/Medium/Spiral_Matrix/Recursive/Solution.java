@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_2.Day_1_Implementation_Simulation.Day_2_String.Medium.Spiral_Matrix;
+package LeetCode.LeetCode_75_Level_2.Day_1_Implementation_Simulation.Day_2_String.Medium.Spiral_Matrix.Recursive;
 
 import java.util.ArrayList;
 import java.util.List;
