@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_2.Day_1_Implementation_Simulation.Day_2_String.Medium.Where_Will_the_Ball_Fall;
+package LeetCode.LeetCode_75_Level_2.Day_1_Implementation_Simulation.Medium.Where_Will_the_Ball_Fall;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_2.Day_1_Implementation_Simulation.Day_2_String.Easy.Happy_Number;
+package LeetCode.LeetCode_75_Level_2.Day_1_Implementation_Simulation.Easy.Happy_Number;
 
 import java.util.HashSet;
 import java.util.Set;
