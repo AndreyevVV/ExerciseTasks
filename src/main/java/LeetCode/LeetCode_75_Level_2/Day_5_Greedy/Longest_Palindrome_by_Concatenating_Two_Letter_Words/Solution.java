@@ -1,54 +1,48 @@
 package LeetCode.LeetCode_75_Level_2.Day_5_Greedy.Longest_Palindrome_by_Concatenating_Two_Letter_Words;
 
-import java.util.*;
+import java.util.HashMap;
 
 public class Solution {
-    public static void main(String[] args) {
-        System.out.println(new Solution().longestPalindrome(new String[]{"lc", "cl", "gg"}));
-    }
 
     public int longestPalindrome(String[] words) {
-
-        Hashtable<String, Integer> ht = new Hashtable<>();
-
-        int count = 0;
-        int nonCount = 0;
-        int oddCount = 0;
-        int result = 0;
-        String plMaxStr = "";
+        HashMap<String, Integer> map = new HashMap<>();
 
         for (String word : words) {
-            ht.put(word, ht.getOrDefault(word, 0) + 1);
+            map.put(word, map.getOrDefault(word, 0) + 1);
         }
 
-        for (Map.Entry<String, Integer> m : ht.entrySet()) {
+        boolean flag = true;
+        int len = 0;
 
-            char[] charArr = m.getKey().toCharArray();
+        for (String str : map.keySet()) {
 
-            if (charArr[0] == charArr[1]) {
-                if (ht.get(m.getKey()) % 2 != 0 && ht.get(m.getKey()) > oddCount) {
-                    oddCount = ht.get(m.getKey()) * 2;
-                    plMaxStr = m.getKey();
+            if (str.charAt(0) != str.charAt(1)) {
+
+                StringBuilder s = new StringBuilder(str);
+                char temp = s.charAt(0);
+
+                s.setCharAt(0, s.charAt(1));
+                s.setCharAt(1, temp);
+
+                String a = s.toString();
+
+                if (map.containsKey(a)) {
+                    int c = Math.min(map.get(str), map.get(a));
+                    len += 2 * c;
                 }
-            }
-        }
-
-        for (Map.Entry<String, Integer> m : ht.entrySet()) {
-
-            if (m.getKey().equals(plMaxStr)) continue;
-
-            char[] charArr = m.getKey().toCharArray();
-
-            if (charArr[0] == charArr[1]) {
-                count += m.getValue() % 2 == 0 ? m.getValue() * 2 : (m.getValue() - 1) * 2;
             } else {
-                String reverse = charArr[1] + "" + charArr[0];
-                if (ht.containsKey(reverse)) {
-                    nonCount += Math.min(ht.get(reverse), m.getValue()) * 2;
+                if ((map.get(str) & 1) == 0) {
+                    if (flag) {
+                        len += map.get(str) * 2;
+                        flag = false;
+                    } else {
+                        len += (map.get(str) - 1) * 2;
+                    }
+                } else {
+                    len += (map.get(str)) * 2;
                 }
             }
         }
-        result = nonCount + count + oddCount;
-        return result;
+        return len;
     }
 }
