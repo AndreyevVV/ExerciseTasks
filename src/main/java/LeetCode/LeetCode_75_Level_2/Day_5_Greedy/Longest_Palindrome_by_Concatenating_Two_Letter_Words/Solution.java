@@ -1,11 +1,12 @@
 package LeetCode.LeetCode_75_Level_2.Day_5_Greedy.Longest_Palindrome_by_Concatenating_Two_Letter_Words;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Solution {
 
     public int longestPalindrome(String[] words) {
-        HashMap<String, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new HashMap<>();
 
         for (String word : words) {
             map.put(word, map.getOrDefault(word, 0) + 1);
