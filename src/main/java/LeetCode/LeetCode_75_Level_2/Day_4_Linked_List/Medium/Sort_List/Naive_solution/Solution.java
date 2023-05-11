@@ -1,8 +1,9 @@
-package LeetCode.LeetCode_75_Level_2.Day_4_Linked_List.Medium.Sort_List;
+package LeetCode.LeetCode_75_Level_2.Day_4_Linked_List.Medium.Sort_List.Naive_solution;
+
+import LeetCode.LeetCode_75_Level_2.Day_4_Linked_List.Medium.Sort_List.ListNode;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 public class Solution {
 
@@ -26,27 +27,5 @@ public class Solution {
             start = start.next;
         }
         return head;
-    }
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-
-        @Override
-        public String toString() {
-            return val + " " + next;
-        }
     }
 }
