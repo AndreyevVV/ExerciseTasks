@@ -8,7 +8,7 @@ public class Solution {
 
         while (LCA != p || LCA != q) {
 
-            if ( p.val < LCA.val && q.val < LCA.val) {
+            if (p.val < LCA.val && q.val < LCA.val) {
                 LCA = LCA.left;
             } else if (p.val > LCA.val && q.val > LCA.val) {
                 LCA = LCA.right;
@@ -18,10 +18,13 @@ public class Solution {
     }
 
     public class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
 
         @Override
         public String toString() {
