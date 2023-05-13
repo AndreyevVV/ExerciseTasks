@@ -6,7 +6,7 @@ public class Solution {
 
         TreeNode LCA = root;
 
-        while (LCA != p || LCA != q) {
+        while (LCA != null) {
 
             if (p.val < LCA.val && q.val < LCA.val) {
                 LCA = LCA.left;
