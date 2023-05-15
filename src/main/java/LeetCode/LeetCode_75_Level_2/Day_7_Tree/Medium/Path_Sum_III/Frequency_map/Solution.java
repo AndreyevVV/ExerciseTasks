@@ -1,4 +1,6 @@
-package LeetCode.LeetCode_75_Level_2.Day_7_Tree.Medium.Path_Sum_III;
+package LeetCode.LeetCode_75_Level_2.Day_7_Tree.Medium.Path_Sum_III.Frequency_map;
+
+import LeetCode.LeetCode_75_Level_2.Day_7_Tree.Medium.Path_Sum_III.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,33 +29,5 @@ public class Solution {
 
         map.put(sum, map.get(sum) - 1);
         return rootsCount;
-    }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-
-        @Override
-        public String toString() {
-            return "{" +
-                    "" + val +
-                    " " + left +
-                    " " + right +
-                    '}';
-        }
     }
 }
