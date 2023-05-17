@@ -1,4 +1,4 @@
-package LeetCode.Concurrency.Easy.Print_in_Order.Semaphore;
+package LeetCode.Concurrency.Easy.Print_in_Order.Semaphore_solution;
 
 import java.util.concurrent.Semaphore;
 
