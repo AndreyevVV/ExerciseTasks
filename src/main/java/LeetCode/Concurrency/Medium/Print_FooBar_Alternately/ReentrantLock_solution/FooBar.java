@@ -37,7 +37,7 @@ public class FooBar {
     public void bar(Runnable printBar) throws InterruptedException {
         try {
             mutex.lock();
-            while (flag.get() == true) condition.await();
+            while (flag.get()) condition.await();
             // printBar.run() outputs "bar". Do not change or remove this line.
             printBar.run();
             flag.getAndSet(true);
