@@ -2,6 +2,7 @@ package LeetCode.Concurrency.Medium.The_Dining_Philosophers;
 
 import LeetCode.Concurrency.Medium.The_Dining_Philosophers.Semaphore_plus_ReentrantLock_solution.DiningPhilosophers;
 //import LeetCode.Concurrency.Medium.The_Dining_Philosophers.Synchronized_on_Object_solution.DiningPhilosophers;
+//import LeetCode.Concurrency.Medium.The_Dining_Philosophers.Locks_with_Condirion_solution.DiningPhilosophers;
 
 public class Main {
 
