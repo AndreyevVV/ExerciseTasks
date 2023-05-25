@@ -2,9 +2,6 @@ package LeetCode.LeetCode_75_Level_2.Day_9_Binary_Search_Tree.Medium.Kth_Smalles
 
 public class Solution {
 
-    int count = 0;
-    int kthMin = 0;
-
     public static void main(String[] args) {
         System.out.println(new Solution().start());
     }
@@ -22,22 +19,21 @@ public class Solution {
     }
 
     public int kthSmallest(TreeNode root, int k) {
-        findKthMin(root, k);
-        return kthMin;
+        return findKthMin(root, k, new int[]{0}, new int[]{0});
     }
 
-    private void findKthMin(TreeNode root, int k) {
-        if (root == null) return;
+    private int findKthMin(TreeNode root, int k, int[] count, int[] kthMin) {
+        if (root == null) return -1;
 
-        findKthMin(root.left, k);
+        int leftResult = findKthMin(root.left, k, count, kthMin);
+        if (leftResult != -1) return leftResult;
 
-        count++;
-
-        if (count == k) {
-            kthMin = root.val;
-            return;
+        count[0]++;
+        if (count[0] == k) {
+            kthMin[0] = root.val;
+            return kthMin[0];
         }
 
-        findKthMin(root.right, k);
+        return findKthMin(root.right, k, count, kthMin);
     }
 }
