@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_2.Day_15_Tree.Easy;
+package LeetCode.LeetCode_75_Level_2.Day_15_Tree;
 
 public class TreeNode {
     public int val;

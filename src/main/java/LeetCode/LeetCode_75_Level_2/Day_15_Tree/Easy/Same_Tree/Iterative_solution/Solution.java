@@ -1,6 +1,6 @@
 package LeetCode.LeetCode_75_Level_2.Day_15_Tree.Easy.Same_Tree.Iterative_solution;
 
-import LeetCode.LeetCode_75_Level_2.Day_15_Tree.Easy.TreeNode;
+import LeetCode.LeetCode_75_Level_2.Day_15_Tree.TreeNode;
 
 import java.util.Stack;
 

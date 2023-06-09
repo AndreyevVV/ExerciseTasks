@@ -1,6 +1,6 @@
 package LeetCode.LeetCode_75_Level_2.Day_15_Tree.Easy.Symmetric_Tree;
 
-import LeetCode.LeetCode_75_Level_2.Day_15_Tree.Easy.TreeNode;
+import LeetCode.LeetCode_75_Level_2.Day_15_Tree.TreeNode;
 
 public class Solution {
     public boolean isSymmetric(TreeNode root) {
