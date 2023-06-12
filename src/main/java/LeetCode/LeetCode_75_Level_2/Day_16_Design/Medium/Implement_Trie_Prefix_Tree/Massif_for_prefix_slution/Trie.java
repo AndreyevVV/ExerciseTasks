@@ -2,17 +2,6 @@ package LeetCode.LeetCode_75_Level_2.Day_16_Design.Medium.Implement_Trie_Prefix_
 
 public class Trie {
 
-    public static void main(String[] args) {
-        Trie trie = new Trie();
-
-        trie.insert("apple");
-        assert trie.search("apple");
-        assert !trie.search("app");
-        assert trie.startsWith("app");
-        trie.insert("app");
-        trie.search("app");
-    }
-
     private TrieNode root;
 
     public Trie() {
