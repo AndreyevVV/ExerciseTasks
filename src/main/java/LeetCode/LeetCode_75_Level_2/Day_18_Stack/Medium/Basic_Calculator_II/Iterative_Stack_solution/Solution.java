@@ -8,10 +8,10 @@ public class Solution {
         Stack<Integer> st = new Stack<>();
 
         for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            if (ch == ' ')
+            char charAt = s.charAt(i);
+            if (charAt == ' ')
                 continue;
-            else if (Character.isDigit(ch)) {
+            else if (Character.isDigit(charAt)) {
                 int num = 0;
                 while (i < s.length() && Character.isDigit(s.charAt(i))) {
                     num = 10 * num + (s.charAt(i) - '0');
@@ -28,22 +28,22 @@ public class Solution {
                     st.push(st.pop() / num);
                 }
                 i--;
-            } else if (ch == '+') {
+            } else if (charAt == '+') {
                 operation = '+';
-            } else if (ch == '-') {
+            } else if (charAt == '-') {
                 operation = '-';
-            } else if (ch == '*') {
+            } else if (charAt == '*') {
                 operation = '*';
-            } else if (ch == '/') {
+            } else if (charAt == '/') {
                 operation = '/';
             }
         }
 
-        int res = 0;
+        int result = 0;
 
         while (!st.isEmpty()) {
-            res += st.pop();
+            result += st.pop();
         }
-        return res;
+        return result;
     }
 }
