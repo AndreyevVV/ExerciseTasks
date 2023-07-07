@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75.Array_String.Reverse_Words_in_a_String;
+package LeetCode.LeetCode_75.Array_String.Medium.Reverse_Words_in_a_String;
 
 import java.util.Collections;
 import java.util.regex.MatchResult;
