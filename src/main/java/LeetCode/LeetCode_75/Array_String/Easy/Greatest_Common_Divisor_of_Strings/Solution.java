@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75.Array_String.Greatest_Common_Divisor_of_Strings;
+package LeetCode.LeetCode_75.Array_String.Easy.Greatest_Common_Divisor_of_Strings;
 
 public class Solution {
     public static void main(String[] args) {

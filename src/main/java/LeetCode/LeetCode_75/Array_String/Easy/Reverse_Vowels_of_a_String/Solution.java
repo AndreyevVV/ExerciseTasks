@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75.Array_String.Reverse_Vowels_of_a_String;
+package LeetCode.LeetCode_75.Array_String.Easy.Reverse_Vowels_of_a_String;
 
 import java.util.Arrays;
 import java.util.HashSet;

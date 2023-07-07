@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75.Array_String.Can_Place_Flowers;
+package LeetCode.LeetCode_75.Array_String.Easy.Can_Place_Flowers;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75.Array_String.Merge_Strings_Alternately;
+package LeetCode.LeetCode_75.Array_String.Easy.Merge_Strings_Alternately;
 
 public class Solution {
 

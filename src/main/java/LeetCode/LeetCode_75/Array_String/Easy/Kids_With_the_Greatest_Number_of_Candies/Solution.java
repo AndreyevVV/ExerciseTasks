@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75.Array_String.Kids_With_the_Greatest_Number_of_Candies;
+package LeetCode.LeetCode_75.Array_String.Easy.Kids_With_the_Greatest_Number_of_Candies;
 
 import java.util.*;
 
