@@ -10,7 +10,6 @@ public class Solution {
     }
 
     public void moveZeroes(int[] nums) {
-//        if (nums.length <= 1) return;
         int nonZeroPointer = 0, fast = 0;
         while (fast < nums.length) {
             if (nums[fast] != 0) {
