@@ -10,7 +10,7 @@ public class Solution {
                 * Math.min(height[leftBorderIndex], height[rightBorderIndex]);
 
         while (leftBorderIndex < rightBorderIndex) {
-            int bottom = leftBorderIndex - rightBorderIndex;
+            int bottom = rightBorderIndex - leftBorderIndex;
             int leftBorder = height[leftBorderIndex], rightBorder = height[rightBorderIndex];
 
             maxArea = Math.max(maxArea, bottom * Math.min(leftBorder, rightBorder));
