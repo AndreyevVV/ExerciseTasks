@@ -13,16 +13,18 @@ public class Solution {
         if (s == null || s.length() == 0) return 0;
         Set<Character> vowelsSet = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'));
 
-        int vowelsCount = 0;
+        int vowelsVount = 0;
         for (int i = 0; i < k; i++) {
-            vowelsCount += vowelsSet.contains((s.charAt(i))) ? 1 : 0;
+            vowelsVount += vowelsSet.contains(s.charAt(i)) ? 1 : 0;
         }
-        int answer = vowelsCount;
-        for (int i = k; i < s.length(); i++) {
-            vowelsCount += vowelsSet.contains((s.charAt(i))) ? 1 : 0;
-            vowelsCount -= vowelsSet.contains((s.charAt(i - k))) ? 1 : 0;
 
-            answer = Math.max(answer, vowelsCount);
+        int answer = vowelsVount;
+        int leftBorder = 0, rightBorder = k - 1;
+
+        while (rightBorder < s.length()) {
+            vowelsVount += vowelsSet.contains(s.charAt(++rightBorder)) ? 1 : 0;
+            vowelsVount -= vowelsSet.contains(s.charAt(leftBorder++)) ? 1 : 0;
+            answer = Math.max(answer, vowelsVount);
             if (answer == k) return k;
         }
         return answer;
