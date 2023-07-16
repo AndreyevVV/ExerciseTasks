@@ -1,6 +1,5 @@
-package LeetCode.LeetCode_75.Sliding_Window.Medium.Longest_Subarray_of_1s_After_Deleting_One_Element.Queue_solution;
+package LeetCode.LeetCode_75.Sliding_Window.Medium.Max_Consecutive_Ones_III.Queue_solution;
 
-import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 
