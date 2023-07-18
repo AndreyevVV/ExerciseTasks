@@ -2,7 +2,7 @@ package LeetCode.LeetCode_75.Prefix_Sum.Easy.Find_Pivot_Index;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(new Solution().pivotIndex(new int[] {1,7,3,6,5,6}));
+        System.out.println(new Solution().pivotIndex(new int[]{1, 7, 3, 6, 5, 6}));
     }
 
     public int pivotIndex(int[] nums) {
@@ -14,7 +14,7 @@ public class Solution {
         }
 
         for (int i = 0; i < nums.length; i++) {
-            if (prefSum[i] == postSum[i] ) return i;
+            if (prefSum[i] == postSum[i]) return i;
         }
         return -1;
     }
