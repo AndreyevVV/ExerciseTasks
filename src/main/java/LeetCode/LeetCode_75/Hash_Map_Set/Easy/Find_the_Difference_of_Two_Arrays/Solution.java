@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(new Solution().findDifference(new int[] {1,2,3}, new int[] {2,4,6}));
+        System.out.println(new Solution().findDifference(new int[]{1, 2, 3}, new int[]{2, 4, 6}));
     }
 
     public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
