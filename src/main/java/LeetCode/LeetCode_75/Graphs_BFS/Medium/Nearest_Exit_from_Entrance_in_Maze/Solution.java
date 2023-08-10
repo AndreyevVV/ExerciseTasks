@@ -1,7 +1,5 @@
 package LeetCode.LeetCode_75.Graphs_BFS.Medium.Nearest_Exit_from_Entrance_in_Maze;
 
-import com.sun.source.doctree.SeeTree;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
