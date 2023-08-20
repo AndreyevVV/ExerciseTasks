@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75.Backtracking.Medium.Combination_Sum_III;
+package LeetCode.LeetCode_75.Backtracking.Medium.Combination_Sum_III.Recursive_solution;
 
 import java.util.ArrayList;
 import java.util.List;
