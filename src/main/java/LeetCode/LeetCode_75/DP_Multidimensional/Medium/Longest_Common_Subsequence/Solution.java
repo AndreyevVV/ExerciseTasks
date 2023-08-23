@@ -1,6 +1,12 @@
 package LeetCode.LeetCode_75.DP_Multidimensional.Medium.Longest_Common_Subsequence;
 
+import java.sql.SQLOutput;
+import java.util.Arrays;
+
 public class Solution {
+    public static void main(String[] args) {
+        System.out.println(new Solution().longestCommonSubsequence("abcde", "ace"));
+    }
 
     public int longestCommonSubsequence(String text1, String text2) {
         int sr = text1.length();
