@@ -6,7 +6,7 @@ import java.util.Comparator;
 public class Solution {
 
     public int findMinArrowShots(int[][] points) {
-        Arrays.sort(points, Comparator.comparing(e -> e[0]));
+        Arrays.sort(points, Comparator.comparing(e -> e[1]));
         int minArrows = 1, start = 0, end = 1;
         int previous = 0;
         for (int current = 1; current < points.length; current++) {
