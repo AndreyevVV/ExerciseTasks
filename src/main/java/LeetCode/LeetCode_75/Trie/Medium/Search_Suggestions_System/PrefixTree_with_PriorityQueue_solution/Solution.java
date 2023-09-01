@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75.Trie.Medium.Search_Suggestions_System.Tree_with_PriorityQueue;
+package LeetCode.LeetCode_75.Trie.Medium.Search_Suggestions_System.PrefixTree_with_PriorityQueue_solution;
 
 import java.util.*;
 
