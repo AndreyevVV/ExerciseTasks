@@ -22,7 +22,6 @@ public class Solution {
             }
             subsets.add(subset);
         }
-
         return subsets;
     }
 }
