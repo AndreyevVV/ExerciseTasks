@@ -16,7 +16,8 @@ public class Solution {
                 if (curr == nums.length - 1) return answer;
                 if (nums[curr] == -1) continue;
                 for (int i = curr + 1; i <= Math.min(nums.length - 1, curr + nums[curr]); i++)
-                    if (nums[i] != -1) queue.add(i);
+                    if (nums[i] != -1)
+                        queue.add(i);
                 nums[curr] = -1;
             }
             answer++;
