@@ -1,4 +1,4 @@
-package LeetCode.Top_Interview_150.Matrix.Medium.Set_Matrix_Zeroes;
+package LeetCode.Top_Interview_150.Matrix.Medium.Set_Matrix_Zeroes.In_place_solution;
 
 public class Solution {
 
