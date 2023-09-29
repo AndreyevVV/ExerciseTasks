@@ -1,4 +1,4 @@
-package LeetCode.Top_Interview_150.Hashmap.Easy.Ransom_Note;
+package LeetCode.Top_Interview_150.Hashmap.Easy.Ransom_Note.HashMap_solution;
 
 import java.util.HashMap;
 import java.util.Map;
