@@ -1,6 +1,5 @@
-package LeetCode.Top_Interview_150.Hashmap.Easy.Valid_Anagram;
+package LeetCode.Top_Interview_150.Hashmap.Easy.Valid_Anagram.HashMap_solution;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
