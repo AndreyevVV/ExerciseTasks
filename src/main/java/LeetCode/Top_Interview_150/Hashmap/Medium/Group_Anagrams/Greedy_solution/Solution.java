@@ -1,4 +1,4 @@
-package LeetCode.Top_Interview_150.Hashmap.Medium.Group_Anagrams;
+package LeetCode.Top_Interview_150.Hashmap.Medium.Group_Anagrams.Greedy_solution;
 
 import java.util.ArrayList;
 import java.util.HashSet;
