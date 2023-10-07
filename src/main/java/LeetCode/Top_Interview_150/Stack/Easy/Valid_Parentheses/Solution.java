@@ -1,4 +1,4 @@
-package LeetCode.Top_Interview_150.Stack.Valid_Parentheses;
+package LeetCode.Top_Interview_150.Stack.Easy.Valid_Parentheses;
 
 import java.util.Stack;
 
