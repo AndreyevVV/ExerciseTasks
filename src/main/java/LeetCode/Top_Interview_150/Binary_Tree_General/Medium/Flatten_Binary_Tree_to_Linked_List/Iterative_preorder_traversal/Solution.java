@@ -1,4 +1,4 @@
-package LeetCode.Top_Interview_150.Binary_Tree_General.Medium.Flatten_Binary_Tree_to_Linked_List;
+package LeetCode.Top_Interview_150.Binary_Tree_General.Medium.Flatten_Binary_Tree_to_Linked_List.Iterative_preorder_traversal;
 
 import java.util.Stack;
 
