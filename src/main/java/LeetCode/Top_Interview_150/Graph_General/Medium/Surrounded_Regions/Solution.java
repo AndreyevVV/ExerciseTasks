@@ -1,4 +1,4 @@
-package LeetCode.Top_Interview_150.Graph_General.Surrounded_Regions;
+package LeetCode.Top_Interview_150.Graph_General.Medium.Surrounded_Regions;
 
 public class Solution {
     private int m;
