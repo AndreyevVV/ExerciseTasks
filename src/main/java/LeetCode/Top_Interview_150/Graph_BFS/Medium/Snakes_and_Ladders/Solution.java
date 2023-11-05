@@ -1,4 +1,4 @@
-package LeetCode.Top_Interview_150.Graph_BFS.Snakes_and_Ladders;
+package LeetCode.Top_Interview_150.Graph_BFS.Medium.Snakes_and_Ladders;
 
 import java.util.LinkedList;
 import java.util.Queue;

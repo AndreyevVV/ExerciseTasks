@@ -1,4 +1,4 @@
-package LeetCode.Top_Interview_150.Graph_BFS.Minimum_Genetic_Mutation;
+package LeetCode.Top_Interview_150.Graph_BFS.Medium.Minimum_Genetic_Mutation;
 
 import java.util.*;
 
