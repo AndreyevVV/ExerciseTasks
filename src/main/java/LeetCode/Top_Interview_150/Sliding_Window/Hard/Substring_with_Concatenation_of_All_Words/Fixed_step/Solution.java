@@ -1,4 +1,4 @@
-package LeetCode.Top_Interview_150.Sliding_Window.Hard.Substring_with_Concatenation_of_All_Words;
+package LeetCode.Top_Interview_150.Sliding_Window.Hard.Substring_with_Concatenation_of_All_Words.Fixed_step;
 
 import java.util.*;
 import java.util.function.Function;
@@ -16,7 +16,7 @@ public class Solution {
             int totalLength = wordLength * wordCount;
 
             Map<String, Integer> wordMap = Arrays.stream(words).collect(Collectors
-                    .toMap(Function.identity(), e2 -> 0, (e1, e2) -> e1 + 1, HashMap::new));
+                    .toMap(Function.identity(), e2 -> 1, (e1, e2) -> e1 + 1, HashMap::new));
 
             for (int i = 0; i <= s.length() - totalLength; i++) {
                 String subString = s.substring(i, i + totalLength);
