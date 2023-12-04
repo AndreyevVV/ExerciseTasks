@@ -1,7 +1,7 @@
 package LeetCode.Top_Interview_150.Binary_Tree_General.Hard.Binary_Tree_Maximum_Path_Sum;
 
-//import LeetCode.Top_Interview_150.Binary_Tree_General.Hard.Binary_Tree_Maximum_Path_Sum.Recursive_Solution.Solution;
-import LeetCode.Top_Interview_150.Binary_Tree_General.Hard.Binary_Tree_Maximum_Path_Sum.Iterative_Solution.Solution;
+import LeetCode.Top_Interview_150.Binary_Tree_General.Hard.Binary_Tree_Maximum_Path_Sum.Recursive_Solution.Solution;
+
 public class Main {
 
     public static void main(String[] args) {
