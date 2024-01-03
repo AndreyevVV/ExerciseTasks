@@ -13,8 +13,6 @@ public class Solution {
         Map<Integer, Integer> countNums = Arrays.stream(nums).boxed().collect(Collectors.toMap(
                 Function.identity(), value -> 1, (e1, e2) -> e1 + 1, HashMap::new));
 
-        System.out.println(countNums);
-
         List<List<Integer>> result = new ArrayList<>();
         for (Map.Entry<Integer, Integer> entry : countNums.entrySet()) {
             if (result.size() < entry.getValue())
