@@ -17,8 +17,6 @@ public class Solution {
         Map<Integer, Integer> map = Arrays.stream(nums).boxed().collect(Collectors.toMap(Function.identity()
                 , value -> 1, (e1, e2) -> e1 + 1, HashMap::new));
 
-        System.out.println(map);
-
         int count = 0;
 
         for (int value : map.values()) {
