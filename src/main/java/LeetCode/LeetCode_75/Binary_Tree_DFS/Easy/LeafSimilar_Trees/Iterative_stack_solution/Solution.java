@@ -42,7 +42,7 @@ public class Solution {
         else if (root1 == null && root2 != null) return false;
         else if (root1 != null && root2 == null) return false;
 
-        return findLeafs(root1).equals(root2);
+        return findLeafs(root1).equals(findLeafs(root2));
     }
 
     private List<Integer> findLeafs(TreeNode root) {
