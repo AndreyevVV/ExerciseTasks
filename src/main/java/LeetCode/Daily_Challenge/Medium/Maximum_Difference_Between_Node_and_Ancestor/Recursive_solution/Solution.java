@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Medium.Maximum_Difference_Between_Node_and_Ancestor;
+package LeetCode.Daily_Challenge.Medium.Maximum_Difference_Between_Node_and_Ancestor.Recursive_solution;
 
 public class Solution {
 
