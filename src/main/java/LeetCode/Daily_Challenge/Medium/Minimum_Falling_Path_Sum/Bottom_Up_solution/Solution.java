@@ -24,6 +24,7 @@ public class Solution {
         }
 
         int minPathSum = Integer.MAX_VALUE;
+
         for (int j = 0; j < cols; j++)
             minPathSum = Math.min(minPathSum, dp[0][j]);
 
