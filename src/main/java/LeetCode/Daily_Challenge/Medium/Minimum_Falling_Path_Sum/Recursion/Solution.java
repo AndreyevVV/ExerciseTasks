@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Medium.Minimum_Falling_Path_Sum.Top_Down_solution;
+package LeetCode.Daily_Challenge.Medium.Minimum_Falling_Path_Sum.Recursion;
 
 public class Solution {
     public static void main(String[] args) {
