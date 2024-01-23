@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Medium.Maximum_Length_of_a_Concatenated_String_with_Unique_Characters;
+package LeetCode.Daily_Challenge.Medium.Maximum_Length_of_a_Concatenated_String_with_Unique_Characters.DP_solution;
 
 import java.util.HashSet;
 import java.util.List;
