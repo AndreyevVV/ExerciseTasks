@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Medium.Furthest_Building_You_Can_Reach.PriorityQueue_solution;
+package LeetCode.Daily_Challenge.Medium.Furthest_Building_You_Can_Reach;
 
 import java.util.PriorityQueue;
 
