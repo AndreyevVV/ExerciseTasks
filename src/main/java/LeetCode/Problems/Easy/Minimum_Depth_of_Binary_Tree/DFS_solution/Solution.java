@@ -1,5 +1,7 @@
 package LeetCode.Problems.Easy.Minimum_Depth_of_Binary_Tree.DFS_solution;
 
+import LeetCode.Problems.Easy.Minimum_Depth_of_Binary_Tree.TreeNode;
+
 import java.util.Stack;
 
 public class Solution {
@@ -45,23 +47,4 @@ public class Solution {
             }
             return minDepth;
         }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 }
