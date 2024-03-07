@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_1.Day_4_Linked_List.Easy.Middle_of_the_Linked_List;
+package LeetCode.LeetCode_75_Level_1.Day_4_Linked_List.Easy.Middle_of_the_Linked_List.BruteForce_solution;
 
 public class Solution {
 
