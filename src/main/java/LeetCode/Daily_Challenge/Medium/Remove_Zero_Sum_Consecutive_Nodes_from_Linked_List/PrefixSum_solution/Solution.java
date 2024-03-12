@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Medium.Remove_Zero_Sum_Consecutive_Nodes_from_Linked_List;
+package LeetCode.Daily_Challenge.Medium.Remove_Zero_Sum_Consecutive_Nodes_from_Linked_List.PrefixSum_solution;
 
 import java.util.HashMap;
 import java.util.Map;
