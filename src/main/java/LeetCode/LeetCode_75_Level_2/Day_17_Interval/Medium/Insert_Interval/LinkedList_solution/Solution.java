@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_2.Day_17_Interval.Medium.Insert_Interval;
+package LeetCode.LeetCode_75_Level_2.Day_17_Interval.Medium.Insert_Interval.LinkedList_solution;
 
 import java.util.Arrays;
 import java.util.LinkedList;
