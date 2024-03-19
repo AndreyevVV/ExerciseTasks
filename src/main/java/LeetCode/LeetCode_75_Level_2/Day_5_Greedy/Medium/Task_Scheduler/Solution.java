@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_2.Day_5_Greedy.Task_Scheduler;
+package LeetCode.LeetCode_75_Level_2.Day_5_Greedy.Medium.Task_Scheduler;
 
 import java.util.*;
 
