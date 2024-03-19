@@ -1,4 +1,4 @@
-package LeetCode.LeetCode_75_Level_2.Day_5_Greedy.Longest_Palindrome_by_Concatenating_Two_Letter_Words;
+package LeetCode.LeetCode_75_Level_2.Day_5_Greedy.Medium.Longest_Palindrome_by_Concatenating_Two_Letter_Words;
 
 import java.util.HashMap;
 import java.util.Map;
