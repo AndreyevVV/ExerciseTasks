@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Medium.Find_the_Duplicate_Number;
+package LeetCode.Daily_Challenge.Medium.Find_the_Duplicate_Number.Solution_1;
 
 public class Solution {
 
