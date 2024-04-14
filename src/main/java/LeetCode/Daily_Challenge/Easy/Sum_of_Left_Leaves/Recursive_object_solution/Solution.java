@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Easy.Sum_of_Left_Leaves.Recursive_solution;
+package LeetCode.Daily_Challenge.Easy.Sum_of_Left_Leaves.Recursive_object_solution;
 
 import LeetCode.Daily_Challenge.Easy.Sum_of_Left_Leaves.TreeNode;
 
