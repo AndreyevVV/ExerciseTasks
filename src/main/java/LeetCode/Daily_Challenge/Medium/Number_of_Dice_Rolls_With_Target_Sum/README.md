@@ -29,7 +29,7 @@ There are 6 ways to get a sum of 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1.
 ```
 Input n = 30, k = 30, target = 500
 Output 222616187
-Explanation The answer must be returned modulo 10<sup>9</sup> + 7.
+Explanation The answer must be returned modulo 10^9 + 7.
 ```
 
 **Constraints:**

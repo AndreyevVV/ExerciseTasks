@@ -8,7 +8,7 @@ The island is partitioned into a grid of square cells. You are given an `m x n` 
 
 The island receives a lot of rain, and the rain water can flow to neighboring cells directly north, south, east, and west if the neighboring cell's height is **less than or equal to** the current cell's height. Water can flow from any cell adjacent to an ocean into the ocean.
 
-Return _a **2D list** of grid coordinates_ `result` _where_ `result[i] = [r<sub>i</sub>, c<sub>i</sub>]` _denotes that rain water can flow from cell_ `(r<sub>i</sub>, c<sub>i</sub>)` _to **both** the Pacific and Atlantic oceans_.
+Return _a **2D list** of grid coordinates_ `result` _where_ `result[i] = [r_i, c_i]` _denotes that rain water can flow from cell_ `(r_i, c_i)` _to **both** the Pacific and Atlantic oceans_.
 
 **Example 1:**
 

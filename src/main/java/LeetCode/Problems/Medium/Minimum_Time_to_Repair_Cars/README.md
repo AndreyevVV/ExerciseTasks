@@ -2,7 +2,7 @@
 created: 2023-03-27T20:07:59 (UTC +02:00)
 source: https://leetcode.com/problems/minimum-time-to-repair-cars/
 ---
-You are given an integer array `ranks` representing the **ranks** of some mechanics. ranks<sub>i</sub> is the rank of the i^th mechanic. A mechanic with a rank `r` can repair n cars in r * n <sup>2</sup> minutes.
+You are given an integer array `ranks` representing the **ranks** of some mechanics. ranks_i is the rank of the i^th mechanic. A mechanic with a rank `r` can repair n cars in r * n ^2 minutes.
 
 You are also given an integer `cars` representing the total number of cars waiting in the garage to be repaired.
 

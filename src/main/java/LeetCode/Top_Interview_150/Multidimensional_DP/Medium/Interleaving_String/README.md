@@ -8,10 +8,10 @@ An **interleaving** of two strings `s` and `t` is a configuration where `s` and 
 
 respectively, such that:
 
--   `s = s<sub>1</sub> + s<sub>2</sub> + ... + s<sub>n</sub>`
--   `t = t<sub>1</sub> + t<sub>2</sub> + ... + t<sub>m</sub>`
+-   `s = s_1 + s_2 + ... + s_n`
+-   `t = t_1 + t_2 + ... + t_m`
 -   `|n - m| <= 1`
--   The **interleaving** is `s<sub>1</sub> + t<sub>1</sub> + s<sub>2</sub> + t<sub>2</sub> + s<sub>3</sub> + t<sub>3</sub> + ...` or `t<sub>1</sub> + s<sub>1</sub> + t<sub>2</sub> + s<sub>2</sub> + t<sub>3</sub> + s<sub>3</sub> + ...`
+-   The **interleaving** is `s_1 + t_1 + s_2 + t_2 + s_3 + t_3 + ...` or `t_1 + s_1 + t_2 + s_2 + t_3 + s_3 + ...`
 
 **Note:** `a + b` is the concatenation of strings `a` and `b`.
 

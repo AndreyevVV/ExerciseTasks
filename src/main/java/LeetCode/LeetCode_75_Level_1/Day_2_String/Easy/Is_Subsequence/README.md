@@ -25,7 +25,7 @@ Output: false
 **Constraints:**
 
 -   `0 <= s.length <= 100`
--   `0 <= t.length <= 10<sup>4</sup>`
+-   `0 <= t.length <= 10^4`
 -   `s` and `t` consist only of lowercase English letters.
 
-**Follow up:** Suppose there are lots of incoming `s`, say `s<sub>1</sub>, s<sub>2</sub>, ..., s<sub>k</sub>` where `k >= 10<sup>9</sup>`, and you want to check one by one to see if `t` has its subsequence. In this scenario, how would you change your code?
+**Follow up:** Suppose there are lots of incoming `s`, say `s_1, s_2, ..., s_k` where `k >= 10^9`, and you want to check one by one to see if `t` has its subsequence. In this scenario, how would you change your code?

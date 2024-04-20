@@ -11,7 +11,7 @@ Each cell in the box has a diagonal board spanning two corners of the cell that 
 
 We drop one ball at the top of each column of the box. Each ball can get stuck in the box or fall out of the bottom. A ball gets stuck if it hits a "V" shaped pattern between two boards or if a board redirects the ball into either wall of the box.
 
-Return _an array_ `answer` _of size_ `n` _where_ `answer[i]` _is the column that the ball falls out of at the bottom after dropping the ball from the_ `i<sup>th</sup>` _column at the top, or `-1` _if the ball gets stuck in the box_._
+Return _an array_ `answer` _of size_ `n` _where_ `answer[i]` _is the column that the ball falls out of at the bottom after dropping the ball from the_ `i^th` _column at the top, or `-1` _if the ball gets stuck in the box_._
 
 **Example 1:**
 

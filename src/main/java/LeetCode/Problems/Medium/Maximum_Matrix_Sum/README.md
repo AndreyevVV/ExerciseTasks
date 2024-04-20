@@ -39,4 +39,4 @@ Explanation: We can follow the following step to reach sum equals 16:
 
 -   `n == matrix.length == matrix[i].length`
 -   `2 <= n <= 250`
--   `-10<sup>5</sup> <= matrix[i][j] <= 10<sup>5</sup>`
+-   `-10^5 <= matrix[i][j] <= 10^5`

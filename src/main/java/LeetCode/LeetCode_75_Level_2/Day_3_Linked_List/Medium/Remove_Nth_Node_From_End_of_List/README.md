@@ -2,7 +2,7 @@
 created: 2023-05-06T22:23:16 (UTC +02:00)
 source: https://leetcode.com/problems/remove-nth-node-from-end-of-list/?envType=study-plan&id=level-2
 ---
-Given the `head` of a linked list, remove the `n<sup>th</sup>` node from the end of the list and return its head.
+Given the `head` of a linked list, remove the `n^th` node from the end of the list and return its head.
 
 **Example 1:**
 

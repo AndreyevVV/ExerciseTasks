@@ -37,4 +37,4 @@ Explanation: Reverse num to get 0, then reverse 0 to get 0, which equals num.
 
 **Constraints:**
 
--   `0 <= num <= 10<sup>6</sup>`
+-   `0 <= num <= 10^6`

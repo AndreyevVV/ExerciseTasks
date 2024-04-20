@@ -2,7 +2,7 @@
 created: 2023-06-27T23:33:11 (UTC +02:00)
 source: https://leetcode.com/problems/powx-n/
 ---
-Implement [pow(x, n)](http://www.cplusplus.com/reference/valarray/pow/), which calculates `x` raised to the power `n` (i.e., `x<sup>n</sup>`).
+Implement [pow(x, n)](http://www.cplusplus.com/reference/valarray/pow/), which calculates `x` raised to the power `n` (i.e., `x^n`).
 
 **Example 1:**
 
