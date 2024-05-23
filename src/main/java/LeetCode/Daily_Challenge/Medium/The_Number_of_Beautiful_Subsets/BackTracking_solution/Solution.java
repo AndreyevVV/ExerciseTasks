@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Medium.The_Number_of_Beautiful_Subsets;
+package LeetCode.Daily_Challenge.Medium.The_Number_of_Beautiful_Subsets.BackTracking_solution;
 
 import java.util.ArrayList;
 import java.util.List;
