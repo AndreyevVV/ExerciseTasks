@@ -1,8 +1,6 @@
 package LeetCode.Daily_Challenge.Medium.Most_Profit_Assigning_Work;
 
 import java.util.*;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
 public class Solution {
     public static void main(String[] args) {
@@ -38,6 +36,7 @@ public class Solution {
         }
         return maxProfit;
     }
+
     private static class Job {
         private final int difficulty;
 
@@ -51,6 +50,7 @@ public class Solution {
         public int getDifficulty() {
             return difficulty;
         }
+
         public int getProfit() {
             return profit;
         }
