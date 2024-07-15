@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Medium.Create_Binary_Tree_From_Descriptions;
+package LeetCode.Daily_Challenge.Medium.Create_Binary_Tree_From_Descriptions.HashMap_solution;
 
 import java.util.*;
 
