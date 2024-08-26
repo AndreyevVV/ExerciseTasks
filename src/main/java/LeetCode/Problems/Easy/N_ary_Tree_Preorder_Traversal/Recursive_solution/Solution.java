@@ -1,4 +1,4 @@
-package LeetCode.Problems.Easy.N_ary_Tree_Preorder_Traversal;
+package LeetCode.Problems.Easy.N_ary_Tree_Preorder_Traversal.Recursive_solution;
 
 import java.util.ArrayList;
 import java.util.List;
