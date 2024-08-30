@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Medium.Most_Stones_Removed_with_Same_Row_or_Column;
+package LeetCode.Daily_Challenge.Medium.Most_Stones_Removed_with_Same_Row_or_Column.UnionFind;
 
 import java.util.HashSet;
 import java.util.Set;
