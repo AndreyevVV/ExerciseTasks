@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Easy.Count_the_Number_of_Consistent_Strings;
+package LeetCode.Daily_Challenge.Easy.Count_the_Number_of_Consistent_Strings.BitManipulation_solution;
 
 public class Solution {
 
