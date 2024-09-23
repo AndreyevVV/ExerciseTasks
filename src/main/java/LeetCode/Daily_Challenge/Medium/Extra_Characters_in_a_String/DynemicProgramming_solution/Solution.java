@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Medium.Extra_Characters_in_a_String;
+package LeetCode.Daily_Challenge.Medium.Extra_Characters_in_a_String.DynemicProgramming_solution;
 
 import java.util.HashSet;
 import java.util.Set;
