@@ -1,4 +1,4 @@
-package LeetCode.Daily_Challenge.Medium.Divide_Players_Into_Teams_of_Equal_Skill;
+package LeetCode.Daily_Challenge.Medium.Divide_Players_Into_Teams_of_Equal_Skill.Array_solution;
 
 import java.util.ArrayList;
 import java.util.Arrays;
