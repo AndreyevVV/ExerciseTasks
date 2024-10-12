@@ -1,33 +1,31 @@
 package LeetCode.Daily_Challenge.Medium.Divide_Intervals_Into_Minimum_Number_of_Groups;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.Arrays;
 
 public class Solution {
 
     public int minGroups(int[][] intervals) {
-        List<int[]> events = new ArrayList<>();
+        int n = intervals.length;
+        int[] startTimes = new int[n];
+        int[] endTimes = new int[n];
 
-        for (int[] interval : intervals) {
-            events.add(new int[]{interval[0], 1});
-            events.add(new int[]{interval[1], -1});
+        for (int i = 0; i < n; i++) {
+            startTimes[i] = intervals[i][0];
+            endTimes[i] = intervals[i][1];
         }
 
-        Collections.sort(events, (a, b) -> {
-            if (a[0] != b[0])
-                return a[0] - b[0];
-            return a[1] - b[1];
-        });
+        Arrays.sort(startTimes);
+        Arrays.sort(endTimes);
 
-        int maxGroups = 0;
-        int currentGroups = 0;
+        int end = 0, groupCount = 0;
 
-        for (int[] event : events) {
-            currentGroups += event[1];
-            maxGroups = Math.max(maxGroups, currentGroups);
+        for (int start : startTimes) {
+            if (start > endTimes[end])
+                end++;
+            else
+                groupCount++;
         }
 
-        return maxGroups;
+        return groupCount;
     }
 }
