@@ -1,0 +1,20 @@
+package LeetCode.Daily_Challenge.Medium.Construct_K_Palindrome_Strings;
+
+public class Solution {
+
+    public boolean canConstruct(String s, int k) {
+        if (k > s.length())
+            return false;
+
+        int[] freq = new int[26];
+        for (char c : s.toCharArray())
+            freq[c - 'a']++;
+
+        int oddCount = 0;
+        for (int count : freq)
+            if (count % 2 != 0)
+                oddCount++;
+
+        return oddCount <= k;
+    }
+}
