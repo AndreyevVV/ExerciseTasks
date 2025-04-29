@@ -3,25 +3,29 @@ package LeetCode.Daily_Challenge.Medium.Count_Subarrays_Where_Max_Element_Appear
 public class Solution {
 
     public long countSubarrays(int[] nums, int k) {
-        long count = 0;
-        int maxValue = 0, freq = 0, length = nums.length;
+        int n = nums.length;
+        int max = Integer.MIN_VALUE;
 
-        for (int num : nums)
-            maxValue = Math.max(maxValue, num);
+        for (int i = 0; i < n; i++)
+            if (nums[i] > max)
+                max = nums[i];
 
-        int left = 0;
+        int i = 0;
+        int countMax = 0;
+        long result = 0;
 
-        for (int right = 0; right < length; right++) {
-            if (nums[right] == maxValue)
-                freq++;
+        for (int j = 0; j < n; j++) {
+            if (nums[j] == max)
+                countMax++;
 
-            while (freq >= k) {
-                count += length - right;
-                if (nums[left] == maxValue)
-                    freq--;
-                left++;
+            while (countMax >= k) {
+                result += (n - j);
+                if (nums[i] == max)
+                    countMax--;
+                i++;
             }
         }
-        return count;
+
+        return result;
     }
 }
