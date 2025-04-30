@@ -1,0 +1,14 @@
+package LeetCode.Daily_Challenge.Easy.Find_Numbers_with_Even_Number_of_Digits;
+
+public class Solution {
+
+    public int findNumbers(int[] nums) {
+        int count = 0;
+        for (int num : nums) {
+            int digits = (int) Math.log10(num) + 1;
+            if (digits % 2 == 0)
+                count++;
+        }
+        return count;
+    }
+}
