@@ -6,14 +6,17 @@ public class Solution {
         if (numFriends == 1) return word;
 
         String result = "";
-        int maxLen = word.length() - numFriends + 1;
+        int length = word.length() - numFriends + 1;
 
-        for (int i = 0; i <= word.length() - maxLen; i++) {
-            String candidate = word.substring(i, i + maxLen);
-            if (candidate.compareTo(result) > 0)
-                result = candidate;
+        for (int i = 0; i < word.length(); i++) {
+            String temp;
+            if (i + length <= word.length())
+                temp = word.substring(i, i + length);
+            else
+                temp = word.substring(i);
+            if (temp.compareTo(result) > 0)
+                result = temp;
         }
-
         return result;
     }
 }
