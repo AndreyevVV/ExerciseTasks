@@ -3,27 +3,27 @@ package LeetCode.Daily_Challenge.Hard.K_th_Smallest_in_Lexicographical_Order;
 public class Solution {
 
     public int findKthNumber(int n, int k) {
-        int curr = 1;
-        k--;
+        long current = 1;
+        int count = 1;
 
-        while (k > 0) {
-            long step = calcSteps(n, curr, curr + 1);
-            if (step <= k) {
-                curr++;
-                k -= step;
+        while (count < k) {
+            long steps = countSteps(current, current + 1, n);
+            if (count + steps <= k) {
+                current++;
+                count += steps;
             } else {
-                curr *= 10;
-                k--;
+                current *= 10;
+                count++;
             }
         }
 
-        return curr;
+        return (int) current;
     }
 
-    private long calcSteps(int n, long prefix, long nextPrefix) {
+    private long countSteps(long prefix, long nextPrefix, int n) {
         long steps = 0;
         while (prefix <= n) {
-            steps += Math.min(n + 1, nextPrefix) - prefix;
+            steps += Math.min(n + 1L, nextPrefix) - prefix;
             prefix *= 10;
             nextPrefix *= 10;
         }
