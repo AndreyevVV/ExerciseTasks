@@ -1,3 +1,5 @@
+package LeetCode.Daily_Challenge.Medium.Maximum_Number_of_Events_That_Can_Be_Attended;
+
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
