@@ -10,9 +10,9 @@ public class Solution {
         Arrays.sort(folder);
         List<String> result = new ArrayList<>();
 
-        String prev = null;
+        String prev = "";
         for (String path : folder) {
-            if (prev == null || !path.startsWith(prev + "/")) {
+            if (prev.isEmpty() || !path.startsWith(prev + "/")) {
                 result.add(path);
                 prev = path;
             }
