@@ -3,20 +3,21 @@ package LeetCode.Daily_Challenge.Easy.Delete_Characters_to_Make_Fancy_String;
 public class Solution {
 
     public String makeFancyString(String s) {
-        StringBuilder result = new StringBuilder();
-
-        for (int i = 0; i < s.length(); i++) {
-            char currentChar = s.charAt(i);
-            int resultLength = result.length();
-
-            if (resultLength >= 2
-                    && result.charAt(resultLength - 1) == currentChar
-                    && result.charAt(resultLength - 2) == currentChar)
-                continue;
-
-            result.append(currentChar);
+        StringBuilder sb = new StringBuilder();
+        int count = 1;
+        
+        sb.append(s.charAt(0));
+        
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) == s.charAt(i - 1))
+                count++;
+            else
+                count = 1;
+            
+            if (count < 3)
+                sb.append(s.charAt(i));
         }
-
-        return result.toString();
+        
+        return sb.toString();
     }
 }
