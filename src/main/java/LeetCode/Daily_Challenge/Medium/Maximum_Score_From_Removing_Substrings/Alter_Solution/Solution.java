@@ -1,6 +1,17 @@
 package LeetCode.Daily_Challenge.Medium.Maximum_Score_From_Removing_Substrings.Alter_Solution;
 
 public class Solution {
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        String s = "cdbcbbaaabab";
+        int x = 4; // очки за удаление "ab"
+        int y = 5; // очки за удаление "ba"
+
+        int result = solution.maximumGain(s, x, y);
+        System.out.println("Максимальное количество очков: " + result);
+    }
     
     public int maximumGain(String s, int x, int y) {
         if (x >= y) {
