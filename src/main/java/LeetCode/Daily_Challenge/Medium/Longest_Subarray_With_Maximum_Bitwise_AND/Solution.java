@@ -7,15 +7,17 @@ public class Solution {
         for (int num : nums)
             maxVal = Math.max(maxVal, num);
 
-        int longest = 0, current = 0;
+        int maxLen = 0;
+        int currLen = 0;
+
         for (int num : nums) {
             if (num == maxVal) {
-                current++;
-                longest = Math.max(longest, current);
+                currLen++;
+                maxLen = Math.max(maxLen, currLen);
             } else
-                current = 0;
+                currLen = 0;
         }
 
-        return longest;
+        return maxLen;
     }
 }
