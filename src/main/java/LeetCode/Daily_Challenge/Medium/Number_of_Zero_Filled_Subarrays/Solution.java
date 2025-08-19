@@ -1,0 +1,19 @@
+package LeetCode.Daily_Challenge.Medium.Number_of_Zero_Filled_Subarrays;
+
+public class Solution {
+
+    public long zeroFilledSubarray(int[] nums) {
+        long result = 0;
+        long count = 0;
+        
+        for (int num : nums) {
+            if (num == 0) {
+                count++;
+                result += count;
+            } else
+                count = 0;
+        }
+        
+        return result;
+    }
+}
