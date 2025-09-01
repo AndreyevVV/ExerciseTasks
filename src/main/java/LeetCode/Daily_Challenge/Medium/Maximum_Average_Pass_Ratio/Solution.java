@@ -5,42 +5,38 @@ import java.util.PriorityQueue;
 public class Solution {
 
     public double maxAverageRatio(int[][] classes, int extraStudents) {
-        PriorityQueue<double[]> maxHeap = new PriorityQueue<>((a, b) -> Double.compare(b[0], a[0]));
-
+        PriorityQueue<double[]> pq = new PriorityQueue<>((a, b) -> Double.compare(b[0], a[0]));
+        
         for (int[] c : classes) {
-            int pass = c[0];
-            int total = c[1];
-            double currentRatio = (double) pass / total;
-            double nextRatio = (double) (pass + 1) / (total + 1);
-            double gain = nextRatio - currentRatio;
-            maxHeap.offer(new double[]{gain, pass, total});
+            int p = c[0], t = c[1];
+            double delta = gain(p, t);
+            pq.offer(new double[]{delta, p, t});
         }
 
         for (int i = 0; i < extraStudents; i++) {
-            double[] top = maxHeap.poll();
-            double gain = top[0];
-            int pass = (int) top[1];
-            int total = (int) top[2];
-
-            pass++;
-            total++;
-
-            double currentRatio = (double) pass / total;
-            double nextRatio = (double) (pass + 1) / (total + 1);
-            double newGain = nextRatio - currentRatio;
-
-            maxHeap.offer(new double[]{newGain, pass, total});
+            double[] top = pq.poll();
+            int p = (int) top[1];
+            int t = (int) top[2];
+            
+            p++;
+            t++;
+            
+            double delta = gain(p, t);
+            pq.offer(new double[]{delta, p, t});
         }
 
-        double totalRatio = 0.0;
-        int n = classes.length;
-        while (!maxHeap.isEmpty()) {
-            double[] top = maxHeap.poll();
-            int pass = (int) top[1];
-            int total = (int) top[2];
-            totalRatio += (double) pass / total;
+        double sum = 0.0;
+        while (!pq.isEmpty()) {
+            double[] cur = pq.poll();
+            int p = (int) cur[1];
+            int t = (int) cur[2];
+            sum += (double) p / t;
         }
+        
+        return sum / classes.length;
+    }
 
-        return totalRatio / n;
+    private double gain(int p, int t) {
+        return ((double)(p + 1) / (t + 1)) - ((double) p / t);
     }
 }
